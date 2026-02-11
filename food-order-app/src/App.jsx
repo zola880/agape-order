@@ -5,10 +5,12 @@ import Staff from './Staff'
 import Truck from './Truck'
 
 const initialMenu = [
-  { id: 1, name: 'Margherita Pizza', price: 8.99 },
-  { id: 2, name: 'Cheeseburger', price: 7.49 },
-  { id: 3, name: 'Caesar Salad', price: 6.5 },
-  { id: 4, name: 'Fries', price: 2.99 }
+  { id: 1, name: 'ተፈርሾ', price: 8.99 },
+  { id: 2, name: 'ሽሮ ላላ', price: 7.49 },
+  { id: 3, name: 'ቴስቲ', price: 6.5 },
+  { id: 4, name: 'ፓስታ በአትክልት', price: 7.49 },
+  { id: 5, name: 'ቴስቲ', price: 6.5 },
+  { id: 6, name: 'ሩዝ', price: 2.99 }
 ]
 
 export default function App() {
@@ -36,7 +38,7 @@ export default function App() {
     <div className="app">
       <header>
         <div style={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
-          <h1>Simple Food Order</h1>
+          <h1>አጋፔ መአድ</h1>
           <nav>
             <button onClick={() => setView('order')} style={{marginRight:8}}>Order Page</button>
             <button onClick={() => setView('staff')} style={{marginRight:8}}>Staff Login</button>
